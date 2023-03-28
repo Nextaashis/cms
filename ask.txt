@@ -1,0 +1,14 @@
+payload ?
+
+
+
+
+
+- useReducers for State management
+- Context API , useContext hook
+- Context API with useReducers, Custom hooks
+- useRef hook
+- useEffect hook detailed, API calls
+- useMemo, useCallback, memo
+- forwardRef,useDeferred, useTransistion etc
+- Lazy loading, flushSync, createPortal etc 
