@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Title from '../component/title';
+
 
 export default function Login() {
   const [name, setName] = useState("");
@@ -12,6 +14,7 @@ export default function Login() {
 
   return (
     <>
+    <Title title="Login" />
       <form>
         <div className="row">
           <div className="col-sm-6 offset-3">

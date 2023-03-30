@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Title from "../component/title";
 
 export default function Post() {
   const [title, setTitle] = useState("");
@@ -17,11 +18,12 @@ export default function Post() {
       })
      })
      const newsdata = await newspost.json();
-      console.log(newsdata);
+     //  console.log(newsdata);
 
   };
   return (
     <>
+     <Title title="Post" />
       <div className="row">
         <div className="col-8 offset-2 mt-3">
           <form className=" mt-2">

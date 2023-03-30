@@ -6,7 +6,7 @@ export default function Logo(){
          <nav className="navbar navbar-expand-sm mt-3">
               
                 <a className="navbar-brand">
-                   <Image src="/../public/logo.png"  className="rounded-pill" height="80" width= "120" /> 
+                   <Image src="/../public/logo.png"  alt="logo" className="rounded-pill" height="80" width= "120" /> 
                  </a>
                  <h2>News</h2>
               

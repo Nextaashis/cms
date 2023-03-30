@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Title from "../component/title";
 
 
 export default function Sigin() {
@@ -25,7 +26,7 @@ export default function Sigin() {
        })
       })
       const data = await resp.json();
-        console.log(data);
+        // console.log(data);
       
         localStorage.setItem('user', JSON.stringify(data.token));  // jwt token store in browaser.....
         
@@ -34,6 +35,7 @@ export default function Sigin() {
 
   return (
     <>
+     <Title title="Sigin" />
       <form>
         <div className="row">
           <div className="col-sm-6 offset-3">
@@ -85,3 +87,7 @@ export default function Sigin() {
     </>
   );
 }
+
+
+
+

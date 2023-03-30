@@ -6,7 +6,7 @@ export default function Category() {
     const [user, setUser] = useState("");
   useEffect(() => {
     const  token = JSON.parse(localStorage.getItem('user'))
-      console.log(user);
+     // console.log(user);
       setUser(token);
   }, [user])
 
